@@ -1,142 +1,137 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Hola mundo!</title>
-  </head>
-  <body>
-    <h2>Conozcamonos mejor</h2>
-    <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROwOvIoKvmhKjQC3VpuSVQRcscz2XiE5Mj3g&usqp=CAU"
-      alt="carita feliz"
-      width="50"
-      height="50"
-    />
+
+<head>
+  <title>Hola mundo!</title>
+</head>
+
+<body>
+  <h2>Conozcamonos mejor</h2>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROwOvIoKvmhKjQC3VpuSVQRcscz2XiE5Mj3g&usqp=CAU"
+    alt="carita feliz" width="50" height="50" />
+  <br />
+  <br />
+  <fieldset>
+    <legend>Inputs de texto</legend>
+    <div>
+      <label for="nombre">Ingresa tu nombre</label>
+      <input type="text" id="nombre" />
+    </div>
     <br />
+    <div>
+      <label for="edad">Ingresa tu edad</label>
+      <input type="number" id="edad" />
+    </div>
     <br />
-    <fieldset>
-      <legend>Inputs de texto</legend>
-      <div>
-        <label for="nombre">Ingresa tu nombre</label>
-        <input type="text" id="nombre" />
-      </div>
-      <br />
-      <div>
-        <label for="edad">Ingresa tu edad</label>
-        <input type="number" id="edad" />
-      </div>
-      <br />
-      <div>
-        <label for="password">Ingresa tu contrase&ntilde;a</label>
-        <input type="password" id="password" />
-      </div>
-      <br />
-      <div>
-        <label for="busqueda">Ingresar t&eacute;rmino de b&uacute;squeda</label>
-        <input type="search" id="busqueda" />
-      </div>
-    </fieldset>
+    <div>
+      <label for="password">Ingresa tu contrase&ntilde;a</label>
+      <input type="password" id="password" />
+    </div>
     <br />
-    <fieldset>
-      <legend>Inputs de fecha y hora</legend>
-      <div>
-        <label for="nacimiento">Ingresa tu fecha de nacimiento</label>
-        <input type="date" id="nacimiento" />
-      </div>
-      <br />
-      <div>
-        <label for="wakeup">A qu&eacute; horas te despiertas?</label>
-        <input type="time" id="wakeup" />
-      </div>
-      <br />
-      <div>
-        <label for="mes">Selecciona tu mes favorito del a&ntilde;o</label>
-        <input type="month" id="mes" />
-      </div>
-      <br />
-      <div>
-        <label for="semana">Semana favorita del a&ntilde;o</label>
-        <input type="week" id="semana" />
-      </div>
-    </fieldset>
+    <div>
+      <label for="busqueda">Ingresar t&eacute;rmino de b&uacute;squeda</label>
+      <input type="search" id="busqueda" />
+    </div>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Inputs de fecha y hora</legend>
+    <div>
+      <label for="nacimiento">Ingresa tu fecha de nacimiento</label>
+      <input type="date" id="nacimiento" />
+    </div>
     <br />
-    <fieldset>
-      <legend>Inputs de selecci&oacute;n</legend>
-      <div>
-        <label for="condiciones">Acepta t&eacute;rminos y condiciones</label>
-        <input type="checkbox" id="condiciones" />
-      </div>
-      <br />
-      <div>
-        <b>Selecciona tu nivel de ingl&eacute;s:</b>
-        <br />
-        <input type="radio" id="basico" name="ingles" value="basico" />
-        <label for="basico">B&aacute;sico</label>
-        <br />
-        <input type="radio" id="medio" name="ingles" value="medio" />
-        <label for="medio">Medio</label>
-        <br />
-        <input type="radio" id="avanzado" name="ingles" value="avanzado" />
-        <label for="avanzado">Avanzado</label>
-      </div>
-      <br />
-      <div>
-        <label for="genero">Selecciona tu g&eacute;nero</label>
-        <select id="genero">
-          <option value=""></option>
-          <option value="masculino">Masculino</option>
-          <option value="femenino">Femenino</option>
-        </select>
-      </div>
-    </fieldset>
+    <div>
+      <label for="wakeup">A qu&eacute; horas te despiertas?</label>
+      <input type="time" id="wakeup" />
+    </div>
     <br />
-    <fieldset>
-      <legend>Otros inputs</legend>
-      <div>
-        <label for="color">Color favorito</label>
-        <input type="color" id="color" />
-      </div>
-      <br />
-      <div>
-        <label for="document">Adjunta tu archivo</label>
-        <input type="file" id="document" />
-      </div>
-      <br />
-      <div>
-        <label for="nivel">Ingresa tu nivel de energ&iacute;a</label>
-        <b>0%</b>
-        <input type="range" id="nivel" />
-        <b>100%</b>
-      </div>
-      <br />
-      <button>Gurdar</button>
-      <button disabled>Cancelar</button>
-    </fieldset>
+    <div>
+      <label for="mes">Selecciona tu mes favorito del a&ntilde;o</label>
+      <input type="month" id="mes" />
+    </div>
     <br />
-    <fieldset>
-      <legend>Tags HTML b&aacute;sicos</legend>
-      <div>
-        <a href="https://github.com/tatiok" target="_blank">Mi GitHub</a>
-      </div>
-      <p>
-        Esto es texto normal :o <b>Esto es un texto en negrita :)</b>
-        <i> Esto es un texto en cursiva :s</i>
-      </p>
-      <hr />
-      <h1>T&iacute;tulo 1</h1>
-      <h2>T&iacute;tulo 2</h2>
-      <h3>T&iacute;tulo 3</h3>
-      <h4>T&iacute;tulo 4</h4>
-      <h5>T&iacute;tulo 5</h5>
-      <h6>T&iacute;tulo 6</h6>
-    </fieldset>
+    <div>
+      <label for="semana">Semana favorita del a&ntilde;o</label>
+      <input type="week" id="semana" />
+    </div>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Inputs de selecci&oacute;n</legend>
+    <div>
+      <label for="condiciones">Acepta t&eacute;rminos y condiciones</label>
+      <input type="checkbox" id="condiciones" />
+    </div>
     <br />
-    <fieldset>
-      <legend>iframe</legend>
-      <iframe
-        src="https://celerik.com/"
-        width="100%"
-        height="500px"
-        title="Company"></iframe>
-    </fieldset>
-  </body>
+    <div>
+      <b>Selecciona tu nivel de ingl&eacute;s:</b>
+      <br />
+      <input type="radio" id="basico" name="ingles" value="basico" />
+      <label for="basico">B&aacute;sico</label>
+      <br />
+      <input type="radio" id="medio" name="ingles" value="medio" />
+      <label for="medio">Medio</label>
+      <br />
+      <input type="radio" id="avanzado" name="ingles" value="avanzado" />
+      <label for="avanzado">Avanzado</label>
+    </div>
+    <br />
+    <div>
+      <label for="genero">Selecciona tu g&eacute;nero</label>
+      <select id="genero">
+        <option value=""></option>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+      </select>
+    </div>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Otros inputs</legend>
+    <div>
+      <label for="color">Color favorito</label>
+      <input type="color" id="color" />
+    </div>
+    <br />
+    <div>
+      <label for="document">Adjunta tu archivo</label>
+      <input type="file" id="document" />
+    </div>
+    <br />
+    <div>
+      <label for="nivel">Ingresa tu nivel de energ&iacute;a</label>
+      <b>0%</b>
+      <input type="range" id="nivel" />
+      <b>100%</b>
+    </div>
+    <br />
+    <button>Gurdar</button>
+    <button disabled>Cancelar</button>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Tags HTML b&aacute;sicos</legend>
+    <div>
+      <a href="https://github.com/tatiok" target="_blank">Mi GitHub</a>
+    </div>
+    <p>
+      Esto es texto normal :o <b>Esto es un texto en negrita :)</b>
+      <i> Esto es un texto en cursiva :s</i>
+    </p>
+    <hr />
+    <h1>T&iacute;tulo 1</h1>
+    <h2>T&iacute;tulo 2</h2>
+    <h3>T&iacute;tulo 3</h3>
+    <h4>T&iacute;tulo 4</h4>
+    <h5>T&iacute;tulo 5</h5>
+    <h6>T&iacute;tulo 6</h6>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>iframe</legend>
+    <iframe src="https://celerik.com/" width="100%" height="500px" title="Company"></iframe>
+  </fieldset>
+</body>
+
 </html>
