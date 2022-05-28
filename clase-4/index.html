@@ -13,9 +13,9 @@
 </head>
 
 <body>
-  <h2>Conozcamonos mejor</h2>
+  <h2>Inputs (formularios)</h2>
   <fieldset>
-    <legend>Inputs de texto</legend>
+    <legend>Texto</legend>
     <div>
       <label for="nombre">Nombre</label>
       <input type="text" id="nombre" />
@@ -35,16 +35,16 @@
       <label for="busqueda">Buscar</label>
       <input type="search" id="busqueda" />
     </div>
-    <br/>
+    <br />
     <div>
       <label for="textarea">&Aacute;rea de texto</label>
-      <br/>
+      <br />
       <textarea id="textarea" rows="4" cols="50">Texto por defecto</textarea>
     </div>
   </fieldset>
   <br />
   <fieldset>
-    <legend>Inputs de fecha y hora</legend>
+    <legend>Fecha y hora</legend>
     <div>
       <label for="fecha">Fecha</label>
       <input type="date" id="fecha" />
@@ -67,7 +67,7 @@
   </fieldset>
   <br />
   <fieldset>
-    <legend>Inputs de selecci&oacute;n</legend>
+    <legend>Selecci&oacute;n</legend>
     <div>
       <label for="condiciones">Acepto t&eacute;rminos y condiciones</label>
       <input type="checkbox" id="condiciones" />
@@ -111,7 +111,7 @@
   </fieldset>
   <br />
   <fieldset>
-    <legend>Otros inputs</legend>
+    <legend>Otros</legend>
     <div>
       <label for="color">Color</label>
       <input type="color" id="color" />
@@ -134,9 +134,9 @@
     <button>Gurdar</button>
     <button disabled>Cancelar</button>
   </fieldset>
-  <br />
+  <h2>Tags b&aacute;sicos</h2>
   <fieldset>
-    <legend>Tags b&aacute;sicos</legend>
+    <legend>Links</legend>
     <div>
       <a href="https://github.com/tatiok" target="_blank">Mi GitHub</a>
     </div>
@@ -147,9 +147,14 @@
       <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
       <a href="https://www.twitter.com/" target="_blank">Twitter</a>
     </nav>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Texto</legend>
     <p>
       Texto normal <b>Texto negrita</b>
-      <i>Texto cursiva</i> <mark>Texto resaltado</mark> <s>Texto tachado</s> <small>Texto pequeño</small> <sub>Texto
+      <i>Texto cursiva</i> <mark>Texto resaltado</mark> <s>Texto tachado</s> <small>Texto peque&ntilde;o</small>
+      <sub>Texto
         subscript</sub> <sup>Texto superscript</sup>
     </p>
     </p>
@@ -174,7 +179,16 @@
   </fieldset>
   <br />
   <fieldset>
-    <legend>Tags de listas</legend>
+    <legend>Barras de progreso</legend>
+    <label for="disco_c">Uso de disco C</label>
+    <meter id="disco_c" value="32" min="0" max="100">32 de 100</meter><br>
+    <br />
+    <label for="archivo">Progreso de descarga</label>
+    <progress id="archivo" value="32" max="100"> 32% </progress>
+  </fieldset>
+  <h2>Listas y tablas</h2>
+  <fieldset>
+    <legend>Listas</legend>
     <ol>
       <li>Caf&eacute;</li>
       <li>T&eacute;</li>
@@ -188,7 +202,7 @@
   </fieldset>
   <br />
   <fieldset>
-    <legend>Tags de tablas</legend>
+    <legend>Tablas</legend>
     <table>
       <thead>
         <tr>
@@ -218,9 +232,9 @@
       </tfoot>
     </table>
   </fieldset>
-  <br />
+  <h2>Multimedia</h2>
   <fieldset>
-    <legend>Tags de im&aacute;genes</legend>
+    <legend>Im&aacute;genes</legend>
     <P><b>Im&aacute;gen normal</b></P>
     <div>
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROwOvIoKvmhKjQC3VpuSVQRcscz2XiE5Mj3g&usqp=CAU"
@@ -243,24 +257,15 @@
   </fieldset>
   <br />
   <fieldset>
-    <legend>Tag de video</legend>
+    <legend>Video</legend>
     <video width="320" height="240" controls>
       <source src="resources/movie.mp4" type="video/mp4">
       Your browser does not support the video tag.
-    </video>    
-  </fieldset>
-  <br/>
-  <fieldset>
-    <legend>Otros tags</legend>
-    <label for="disco_c">Uso de disco C</label>
-    <meter id="disco_c" value="32" min="0" max="100">32 de 100</meter><br>
-    <br />
-    <label for="archivo">Progreso de descarga</label>
-    <progress id="archivo" value="32" max="100"> 32% </progress>
+    </video>
   </fieldset>
   <br />
   <fieldset>
-    <legend>iframe</legend>
+    <legend>Iframe</legend>
     <iframe src="../clase-2/index.html" width="100%" height="400px"></iframe>
     <!--Se utiliza .. para devolverme a la carpeta raíz, en este caso "CLASES-HTML-JS-CSS"-->
   </fieldset>
