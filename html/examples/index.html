@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Examples</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid gray;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Examples</h2>
+  <hr />
+  <h3>Inputs</h3>
+  <fieldset>
+    <legend>Text</legend>
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" />
+    </div>
+    <br />
+    <div>
+      <label for="age">Age</label>
+      <input type="number" id="age" />
+    </div>
+    <br />
+    <div>
+      <label for="password">Password</label>
+      <input type="password" id="password" />
+    </div>
+    <br />
+    <div>
+      <label for="search">Search</label>
+      <input type="search" id="search" />
+    </div>
+    <br />
+    <div>
+      <label for="textarea">Textarea</label>
+      <br />
+      <textarea id="textarea" rows="4" cols="50">Text by default</textarea>
+    </div>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Date & Time</legend>
+    <div>
+      <label for="date">Date</label>
+      <input type="date" id="date" />
+    </div>
+    <br />
+    <div>
+      <label for="time">Time</label>
+      <input type="time" id="time" />
+    </div>
+    <br />
+    <div>
+      <label for="month">Month</label>
+      <input type="month" id="month" />
+    </div>
+    <br />
+    <div>
+      <label for="week">Week</label>
+      <input type="week" id="week" />
+    </div>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Selection</legend>
+    <div>
+      <label for="terms">I accept Terms & Conditions</label>
+      <input type="checkbox" id="terms" />
+    </div>
+    <br />
+    <div>
+      <b>English level</b>
+      <br />
+      <input type="radio" id="basic" name="english" value="basic" />
+      <label for="basic">Basic</label>
+      <br />
+      <input type="radio" id="mid" name="english" value="mid" />
+      <label for="mid">Mid</label>
+      <br />
+      <input type="radio" id="advanced" name="english" value="advanced" />
+      <label for="advanced">Advanced</label>
+    </div>
+    <br />
+    <div>
+      <label for="gender">Gender</label>
+      <select id="gender">
+        <option value=""></option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </div>
+    <br />
+    <div>
+      <label for="cars">Choose a car</label>
+      <select name="car" id="cars">
+        <optgroup label="Swiss Cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="German cars">
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </optgroup>
+      </select>
+    </div>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Others</legend>
+    <div>
+      <label for="color">Color</label>
+      <input type="color" id="color" />
+    </div>
+    <br />
+    <div>
+      <label for="file">File</label>
+      <input type="file" id="file" />
+    </div>
+    <br />
+    <div>
+      <label for="level">Batery</label>
+      <b>0%</b>
+      <input type="range" id="level" />
+      <b>100%</b>
+    </div>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Buttons</legend>
+    <button>Save</button>
+    <button disabled>Cancel</button>
+  </fieldset>
+  <h3>Basic Tags</h3>
+  <fieldset>
+    <legend>Links</legend>
+    <div>
+      <a href="https://github.com/tatiok" target="_blank">My GitHub</a>
+    </div>
+    <br />
+    <nav>
+      <a href="https://www.google.com/" target="_blank">Google</a> |
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
+      <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+    </nav>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Text</legend>
+    <p>
+      Normal text <b>Bold text</b>
+      <i>Italic text</i> <mark>Marked text</mark> <s>Crossed text</s> <small>Small text</small>
+      <sub>Bottom text</sub> <sup>Top text</sup>
+    </p>
+    </p>
+    <pre>
+      the text in a pre  element
+      displayed with fixed width
+      source, and preserves both
+      spaces                like
+      line breaks.
+    </pre>
+    <hr />
+    <h1>Title 1</h1>
+    <h2>Title 2</h2>
+    <h3>Title 3</h3>
+    <h4>Title 4</h4>
+    <h5>Title 5</h5>
+    <h6>Title 6</h6>
+    <details>
+      <summary>Summary (Click to expand)</summary>
+      <p>This text can be expanded inside a summary</p>
+    </details>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Progress bars</legend>
+    <label for="disc_c">Disc C usage</label>
+    <meter id="disc_c" value="32" min="0" max="100">32 of 100</meter><br>
+    <br />
+    <label for="progress">Download Progress</label>
+    <progress id="progress" value="32" max="100">32%</progress>
+  </fieldset>
+  <h3>Lists & Tables</h3>
+  <fieldset>
+    <legend>Lists</legend>
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Tables</legend>
+    <table>
+      <thead>
+        <tr>
+          <th>Column 1 Title</th>
+          <th>Column 2 Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Row 1 Column 1</td>
+          <td>Row 1 Column 2</td>
+        </tr>
+        <tr>
+          <td>Row 2 Column 1</td>
+          <td>Row 2 Column 2</td>
+        </tr>
+        <tr>
+          <td>Row 3 Column 1</td>
+          <td>Row 3 Column 2</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Foot Column 1</td>
+          <td>Foot Column 2</td>
+        </tr>
+      </tfoot>
+    </table>
+  </fieldset>
+  <h3>Multimedia</h3>
+  <fieldset>
+    <legend>Images</legend>
+    <P><b>Normal Image</b></P>
+    <div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROwOvIoKvmhKjQC3VpuSVQRcscz2XiE5Mj3g&usqp=CAU"
+        alt="Happy face" width="50" height="50" />
+    </div>
+    <P><b>MAP Image</b></P>
+    <p>Click on the computer, the telephone, or the cup of coffee, to navigate to a new page and read
+      more abut that topic:</p>
+    <img src="resources/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+    <map name="workmap">
+      <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html" target="_blank">
+      <area shape="rect" coords="290,172,333,250" alt="Phone" href="telephone.html" target="_blank">
+      <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.html" target="_blank">
+    </map>
+    <p><b>SVG Image</b></p>
+    <svg width="100" height="100">
+      <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+      Sorry, your browser does not support inline SVG.
+    </svg>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Video</legend>
+    <video width="320" height="240" controls>
+      <source src="resources/movie.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Iframe</legend>
+    <iframe src="../website-elements/index.html" width="100%" height="400px"></iframe>
+    <!--.. is used to return me to the root folder, in this case "HTML-JS-CSS-CLASSES"-->
+  </fieldset>
+</body>
+
+</html>
