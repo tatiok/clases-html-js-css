@@ -15,7 +15,7 @@
 <body>
   <h2>Examples</h2>
   <hr />
-  <h3>Inputs</h3>
+  <h3 id="inputs">Inputs</h3>
   <fieldset>
     <legend>Text</legend>
     <div>
@@ -137,7 +137,7 @@
     <button>Save</button>
     <button disabled>Cancel</button>
   </fieldset>
-  <h3>Basic Tags</h3>
+  <h3 id="basic-tags">Basic Tags</h3>
   <fieldset>
     <legend>Links</legend>
     <div>
@@ -150,6 +150,14 @@
       <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
       <a href="https://www.twitter.com/" target="_blank">Twitter</a>
     </nav>
+    <p>
+      <a href="mailto:admon@htmlclass.com">Send email</a>
+    </p>
+    <span>Internal navigation:</span>
+    <a href="#inputs">Inputs</a> |
+    <a href="#basic-tags">Basic Tags</a> |
+    <a href="#lists-tables">Lists & Tables</a> |
+    <a href="#multimedia">Multimedia</a>
   </fieldset>
   <br />
   <fieldset>
@@ -188,7 +196,7 @@
     <label for="progress">Download Progress</label>
     <progress id="progress" value="32" max="100">32%</progress>
   </fieldset>
-  <h3>Lists & Tables</h3>
+  <h3 id="lists-tables">Lists & Tables</h3>
   <fieldset>
     <legend>Lists</legend>
     <ol>
@@ -233,8 +241,39 @@
         </tr>
       </tfoot>
     </table>
+    <br />
+    <table>
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+    <br />
+    <table style="width:100%">
+      <tr>
+        <th>Name</th>
+        <td>Jill</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Phone</th>
+        <td>555-1234</td>
+      </tr>
+      <tr>
+        <td>555-8745</td>
+      </tr>
+    </table>
   </fieldset>
-  <h3>Multimedia</h3>
+  <h3 id="multimedia">Multimedia</h3>
   <fieldset>
     <legend>Images</legend>
     <P><b>Normal Image</b></P>
