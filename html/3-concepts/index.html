@@ -1,69 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Concepts</title>
+  <meta charset="UTF-8" />
+  <!--For more info about viewport usage see: https://www.w3schools.com/css/css_rwd_viewport.asp -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Concepts</title>
 </head>
 
 <body>
-    <h2>Concepts</h2>
-    <hr />
-    <h3>Definitions</h3>
-    <ul>
-        <li><b>HTML:</b> Hyper Text Markup Language</li>
-        <li><b>Responsive Web Design:</b> Responsive web design is about creating web pages that look good on all devices; a responsive web design will automatically adjust for different screen sizes and viewports</li>
-    </ul>
-    <h3>HTML Elements</h3>
-    <ul>
-        <li><b>HTML Element</b> &lt;tagname&gt; Content goes here... &lt;/tagname&gt;</li>
-        <li><b>Empty elements</b> Some HTML elements have no content (like the &lt;br&gt; element)</li>
-        <li>HTML <B>is Not Case Sensitive</B> however W3C recommend writing tags in lowercase</li>
-    </ul>
-    <h3>HTML Attributes</h3>
-    <ul>
-        <li>All HTML elements can have attributes</li>
-        <li>Attributes are always specified in the start tag</li>
-        <li>Attributes usually come in name/value pairs like: name=&quot;value&quot;</li>
-        <li><b>Absolute URL </b> Links to an external resource that is hosted on another website. Example:
-            src=&quot;https://www.w3schools.com/images/img_girl.jpg&quot;.</li>
-        <li><b>Relative URL</b> Links to an resource that is hosted within the website. Here, the URL does not include
-            the domain name. If the URL begins without a slash, it will be relative to the current page. Example:
-            src=&quot;img_girl.jpg&quot;. If the URL begins with a slash, it will be relative to the domain. Example:
-            src=&quot;/images/img_girl.jpg&quot;.</li>
-        <li>Double quotes around attribute values are the most common in HTML, but single quotes can also be used.</li>
-        <li>The <b>id</b> name is case sensitive!</li>
-    </ul>
-    <h3>HTML Block and Inline Elements</h3>
-    <ul>
-        <li>Every HTML element has a default display value, depending on what type of element it is. There are two
-            display values: block and inline.</li>
-        <li>A block-level element always starts on a new line, and the browsers automatically add some space (a margin)
-            before and after the element.</li>
-        <li>A block-level element always takes up the full width available</li>
-        <li>Examples of block-level elements: canvas, div, fieldset, form, h1-h6, header, hr, li, nav, ol, p, pre,
-            table, tfoot, ul, video</li>
-        <li>An inline element does not start on a new line</li>
-        <li>An inline element only takes up as much width as necessary</li>
-        <li>Examples of inline elements: a, b, br, button, em, i, img, input, label, map, script, select, span, strong,
-            sub, sup, textarea</li>
-        <li><b>An inline element cannot contain a block-level element!</b></li>
-    </ul>
-    <h3>HTML Layout Elements</h3>
-    <ul>
-        <li><b>header:</b> Defines a header for a document or a section</li>
-        <li><b>nav:</b> Defines a set of navigation links</li>
-        <li><b>section:</b> Defines a section in a document</li>
-        <li><b>article:</b> Defines an independent, self-contained content</li>
-        <li><b>aside: </b> Defines content aside from the content (like a sidebar)</li>
-        <li><b>footer:</b> Defines a footer for a document or a section</li>
-        <li><b>details:</b> Defines additional details that the user can open and close on demand</li>
-        <li><b>summary:</b> Defines a heading for the details element</li>
-        <li>
-            <b>Example:</b>
-            <br />
-            <img src="layout-elements.png" alt="Layout Elements" />
-        </li>
-    </ul>
+  <h2>Concepts</h2>
+  <hr />
+
+  <h3>Definitions</h3>
+  <ul>
+    <li><b>HTML:</b> Hyper Text Markup Language</li>
+    <li><b>Responsive Web Design:</b> Responsive web design is about creating web pages that look good on all
+      devices; a responsive web design will automatically adjust for different screen sizes and viewports</li>
+  </ul>
+
+  <h3>HTML Elements</h3>
+  <ul>
+    <li><b>HTML Element</b> &lt;tagname&gt; Content goes here... &lt;/tagname&gt;</li>
+    <li><b>Empty elements</b> Some HTML elements have no content (like the &lt;br&gt; element)</li>
+    <li>HTML <B>is Not Case Sensitive</B> however W3C recommend writing tags in lowercase</li>
+  </ul>
+
+  <h3>HTML Attributes</h3>
+  <ul>
+    <li>All HTML elements can have attributes</li>
+    <li>Attributes are always specified in the start tag</li>
+    <li>Attributes usually come in name/value pairs like: name=&quot;value&quot;</li>
+    <li><b>Absolute URL </b> Links to an external resource that is hosted on another website. Example:
+      src=&quot;https://www.w3schools.com/images/img_girl.jpg&quot;.</li>
+    <li><b>Relative URL</b> Links to an resource that is hosted within the website. Here, the URL does not include
+      the domain name. If the URL begins without a slash, it will be relative to the current page. Example:
+      src=&quot;img_girl.jpg&quot;. If the URL begins with a slash, it will be relative to the domain. Example:
+      src=&quot;/images/img_girl.jpg&quot;.</li>
+    <li>Double quotes around attribute values are the most common in HTML, but single quotes can also be used.</li>
+    <li>The <b>id</b> name is case sensitive!</li>
+  </ul>
+
+  <h3>HTML Block and Inline Elements</h3>
+  <ul>
+    <li>Every HTML element has a default display value, depending on what type of element it is. There are two
+      display values: block and inline.</li>
+    <li>A block-level element always starts on a new line, and the browsers automatically add some space (a margin)
+      before and after the element.</li>
+    <li>A block-level element always takes up the full width available</li>
+    <li>Examples of block-level elements: canvas, div, fieldset, form, h1-h6, header, hr, li, nav, ol, p, pre,
+      table, tfoot, ul, video</li>
+    <li>An inline element does not start on a new line</li>
+    <li>An inline element only takes up as much width as necessary</li>
+    <li>Examples of inline elements: a, b, br, button, em, i, img, input, label, map, script, select, span, strong,
+      sub, sup, textarea</li>
+    <li><b>An inline element cannot contain a block-level element!</b></li>
+  </ul>
+
+  <h3>HTML Layout Elements</h3>
+  <ul>
+    <li><b>header:</b> Defines a header for a document or a section</li>
+    <li><b>nav:</b> Defines a set of navigation links</li>
+    <li><b>section:</b> Defines a section in a document</li>
+    <li><b>article:</b> Defines an independent, self-contained content</li>
+    <li><b>aside: </b> Defines content aside from the content (like a sidebar)</li>
+    <li><b>footer:</b> Defines a footer for a document or a section</li>
+    <li><b>details:</b> Defines additional details that the user can open and close on demand</li>
+    <li><b>summary:</b> Defines a heading for the details element</li>
+    <li>
+      <b>Example:</b>
+      <br />
+      <img src="layout-elements.png" alt="Layout Elements" />
+    </li>
+  </ul>
+
 </body>
 
 </html>
