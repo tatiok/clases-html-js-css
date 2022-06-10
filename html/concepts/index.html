@@ -6,6 +6,11 @@
   <!--For more info about viewport usage see: https://www.w3schools.com/css/css_rwd_viewport.asp -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Concepts</title>
+  <style>
+    code {
+      color: darkgreen;
+    }
+  </style>
 </head>
 
 <body>
@@ -16,29 +21,33 @@
     <li><b>HTML:</b> Hyper Text Markup Language</li>
     <li><b>Responsive Web Design:</b> Responsive web design is about creating web pages that look good on all
       devices; a responsive web design will automatically adjust for different screen sizes and viewports</li>
-    <li><b>Web Server:</b> is software and hardware that uses HTTP (Hypertext Transfer Protocol) and other
+    <li><b>Web Server:</b> Is software and hardware that uses HTTP (Hypertext Transfer Protocol) and other
       protocols to respond to client requests made over the World Wide Web. The main job of a web server is
       to display website content through storing, processing and delivering webpages to users.</li>
-  </ul>
+    <li><b>URL:</b> Uniform Resource Locator</li>
+    </ul>
   <h3>HTML Elements</h3>
   <ul>
-    <li><b>HTML Element</b> &lt;tagname&gt; Content goes here... &lt;/tagname&gt;</li>
-    <li><b>Empty elements</b> Some HTML elements have no content (like the &lt;br&gt; element)</li>
+    <li><b>HTML Element</b> <code>&lt;tagname&gt; Content goes here... &lt;/tagname&gt;</code></li>
+    <li><b>Empty elements</b> Some HTML elements have no content (like the <code>&lt;br&gt;</code> element)</li>
     <li>HTML <B>is Not Case Sensitive</B> however W3C recommend writing tags in lowercase</li>
   </ul>
   <h3>HTML Attributes</h3>
   <ul>
     <li>All HTML elements can have attributes</li>
     <li>Attributes are always specified in the start tag</li>
-    <li>Attributes usually come in name/value pairs like: name=&quot;value&quot;</li>
+    <li>Attributes usually come in name/value pairs like: <code>name=&quot;value&quot;</code></li>
     <li><b>Absolute URL </b> Links to an external resource that is hosted on another website. Example:
-      src=&quot;https://www.w3schools.com/images/img_girl.jpg&quot;.</li>
+      <code>src=&quot;https://www.w3schools.com/images/img_girl.jpg&quot;</code>.
+    </li>
     <li><b>Relative URL</b> Links to an resource that is hosted within the website. Here, the URL does not include
       the domain name. If the URL begins without a slash, it will be relative to the current page. Example:
-      src=&quot;img_girl.jpg&quot;. If the URL begins with a slash, it will be relative to the domain. Example:
-      src=&quot;/images/img_girl.jpg&quot;.</li>
+      <code>src=&quot;img_girl.jpg&quot;</code>. If the URL begins with a slash, it will be relative to the domain.
+      Example:
+      <code>src=&quot;/images/img_girl.jpg&quot;</code>.
+    </li>
     <li>Double quotes around attribute values are the most common in HTML, but single quotes can also be used.</li>
-    <li>The <b>id</b> name is case sensitive!</li>
+    <li>The <b>id</b> value is case sensitive!</li>
   </ul>
   <h3>HTML Block and Inline Elements</h3>
   <ul>
@@ -65,11 +74,27 @@
     <li><b>footer:</b> Defines a footer for a document or a section</li>
     <li><b>details:</b> Defines additional details that the user can open and close on demand</li>
     <li><b>summary:</b> Defines a heading for the details element</li>
-    <li>
-      <b>Example:</b>
-      <br />
-      <img src="layout-elements.png" alt="Layout Elements" />
-    </li>
+  </ul>
+  <b>Example:</b>
+  <br />
+  <img src="layout-elements.png" alt="Layout Elements" />
+  <h3>Good Practices</h3>
+  <ul>
+    <li>Always declare the document type as the first line in your document: <code>&lt;!DOCTYPE html&gt;</code></li>
+    <li>Use Lowercase Element Names. Good: <code>&lt;html&gt;</code>, Bad: <code>&lt;HTML&gt;</code></li>
+    <li>Close all HTML Elements</li>
+    <li>Use Lowercase Attribute Names</li>
+    <li>Always Quote Attribute Values</li>
+    <li>Always Specify alt, width, and height for Images</li>
+    <li>Don't put spaces around the equal. Bad: <code>href = &quot;styles.css&quot;</code></li>
+    <li>Avoid Long Code Lines</li>
+    <li>For readability, add two spaces of indentation. Do not use the tab key.</li>
+    <li>Never Skip the <code>&lt;title&gt;</code> Element</li>
+    <li>Add the lang Attribute: <code>&lt;html lang=&quot;en-us&quot;&gt;</code></li>
+    <li>Add the character encoding: <code>&lt;meta charset=&quot;charset&quot;&gt;</code></li>
+    <li>Set The Viewport:
+      <code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</code></li>
+    <li>Use Lower Case File Names. Separate words with the dash (-)</li>
   </ul>
 </body>
 
