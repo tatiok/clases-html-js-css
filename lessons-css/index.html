@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS</title>
+</head>
+
+<body>
+  <h3>CSS</h3>
+  <pre><b>Syntax</b> 
+      Selector {
+        property1: value1; 
+        property2: value2;
+      }
+  </pre>
+  <h4>Selector</h4>
+  <div><b>Selector:</b> Selects the HTML elements that do you want to style.</div>
+  <br />
+  <div>Simple Selector, is based in simple things like tag, id or class</div>
+  <ul>
+    <li>CLASS SELECTOR</li>
+    The class selector selects HTML elements with a specific class attribute.
+    To select elements with a specific class, write a period (.) character, followed by the class name.
+    <pre>.class-name { property: value;}</pre>
+    <li>ELEMENT AND CLASS</li>
+    <pre>tag.class-name { property: value;}</pre>
+    <li>ID SELECTOR</li>
+    <pre>#id-value { property: value;}</pre>
+    <li>TAG SELECTOR</li>
+    <pre>tag { property: value;}</pre>
+    <li>UNIVERSAL SELECTOR</li>
+    The universal selector (*) selects all HTML elements on the page.
+    <pre>* { property: value;}</pre>
+    <li>GROUPING SELECTOR</li>
+    <pre>tag1, tag2, tag3 { property: value;}</pre>
+  </ul>
+  <div><strong>Other selectors</strong>
+    <ul>
+      <li>Combinator selectors (select elements based on a specific relationship between them)</li>
+      <li>Pseudo-class selectors (select elements based on a certain state)</li>
+      <li>Pseudo-elements selectors (select and style a part of an element)</li>
+      <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+    </ul>
+  </div>
+  <h4>How can I add CSS to my index.html?</h4>
+  <ul>
+    <li>External: Other file with extension .css</li>
+    <li>Internal: tag style in head</li>
+    <li>Inline: style like attribute in element HTML - highest priority, in code</li>
+  </ul>
+  <h4>CSS Comment</h4>
+  <pre>/* .... */</pre>
+  <h4>CSS Colors</h4>
+  <div>Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+    <ul>
+      <li>CSS Color Names: Tomato, Orange, gray</li>
+      <li>CSS Color Values: colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA
+        values.
+        <ul>
+          <li>RGB: rgb(255, 99, 71) - Tomato</li>
+          <li>HEX: #ff6347 - Tomato</li>
+          <li>HSL: hsl(9, 100%, 64%) - Tomato</li>
+          <li>RGBA: rgba(255, 99, 71, 0.5) - Tomato with 50% transparent</li>
+          <li>HSLA: hsla(9, 100%, 64%, 0.5) - Tomato with 50% transparent</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
