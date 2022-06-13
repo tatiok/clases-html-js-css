@@ -68,6 +68,35 @@
       </li>
     </ul>
   </div>
+
+  Background:
+  Part of back to the document
+  1. Background-color:
+  body {
+    background-color: lightblue;
+  }
+  *Opacity / Transparency: It can take a value from 0.0 - 1.0. The lower value, the more transparent.
+  2. background-image: The background-image property specifies an image to use as the background of an element.
+  body {
+    background-image: url("paper.gif");
+  }
+  Nota: By default, the background-image property repeats an image both horizontally and vertically.
+   -CSS background-repeat: Sets how a background image will be repeated
+   -CSS background-position: Sets the starting position of a background image
+   -CSS background-attachment: Sets whether a background image is fixed or scrolls with the rest of the page
+   -CSS Background Shorthand: To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.
+   example: 
+   *normal code:
+   body {
+    background-color: #ffffff;
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+   }
+    *shorthand:
+    body {
+      background: #ffffff url("img_tree.png") no-repeat right top;
+    }
 </body>
 
 </html>

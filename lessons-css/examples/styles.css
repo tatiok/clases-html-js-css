@@ -1,0 +1,17 @@
+body {
+  background: url("landscape.jpg") repeat;
+}
+
+#div-1 {
+  background-color: aqua;
+  opacity: 0.1;
+}
+
+#div-2 {
+  background-color: rgba(202, 63, 41, 1);
+}
+
+#div-3 {
+  background-color: aqua;
+  opacity: 1;
+}
