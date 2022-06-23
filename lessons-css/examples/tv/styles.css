@@ -1,0 +1,80 @@
+.card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.card div {
+  margin-bottom: 10px;
+}
+
+.card .image-container {
+  text-align: center;
+}
+
+.card .discounts {
+  margin-top: 20px;
+}
+
+.card .discounts .percentage {
+  background-color: #17202A;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.card .discounts .before {
+  text-decoration-line: line-through;
+  color: gray;
+  font-size: 90%;
+  padding: 10px 10px 10px 5px;
+}
+
+.card .price {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.card .availability {
+  color: red;
+  font-size: 100%;
+}
+
+.card .description {
+  font-size: 88%;
+  color: gray;
+}
+
+.card .offerts a {
+  font-size: 85%;
+  color: blue;
+}
+
+.card .offerts span {
+  font-size: 100%;
+  color: red;
+}
+
+.card .add button {
+  background-color: rgba(255, 132, 0, 0.896);
+  color: white;
+  font-size: 90%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.card .add .icon {
+  margin-bottom: -10px;
+}
+

@@ -68,35 +68,109 @@
       </li>
     </ul>
   </div>
-
-  Background:
-  Part of back to the document
-  1. Background-color:
-  body {
-    background-color: lightblue;
-  }
-  *Opacity / Transparency: It can take a value from 0.0 - 1.0. The lower value, the more transparent.
-  2. background-image: The background-image property specifies an image to use as the background of an element.
-  body {
-    background-image: url("paper.gif");
-  }
-  Nota: By default, the background-image property repeats an image both horizontally and vertically.
-   -CSS background-repeat: Sets how a background image will be repeated
-   -CSS background-position: Sets the starting position of a background image
-   -CSS background-attachment: Sets whether a background image is fixed or scrolls with the rest of the page
-   -CSS Background Shorthand: To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.
-   example: 
-   *normal code:
-   body {
-    background-color: #ffffff;
-    background-image: url("img_tree.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-   }
-    *shorthand:
-    body {
-      background: #ffffff url("img_tree.png") no-repeat right top;
-    }
+  <h4>Background</h4>
+  <div>Part of back to the document</div>
+  <ol>
+    <li>Background-color:<br />
+      <pre>   body {
+        background-color: lightblue;
+      }</pre>
+    </li>
+    <li>background-image: The background-image property specifies an image to use as the background of an element.<br />
+      <pre>   body {
+        background-image: url("paper.gif");
+      }</pre>
+    <li>Notes:
+      <ul>
+        <li>By default, the background-image property repeats an image both horizontally and vertically.</li>
+        <li>CSS background-repeat: Sets how a background image will be repeated.</li>
+        <li>CSS background-position: Sets the starting position of a background image.</li>
+        <li>CSS background-attachment: Sets whether a background image is fixed or scrolls with the rest of the page.
+        </li>
+        <li>CSS Background Shorthand: To shorten the code, it is also possible to specify all the background properties
+          in one single property. This is called a shorthand property.</li>
+        <li>Opacity / Transparency: It can take a value from 0.0 - 1.0. The lower value, the more transparent.</li>
+      </ul>
+    </li>
+    <li>Examples:
+      <ul>
+        <li>normal code:
+          <pre>
+          body {
+            background-color: #ffffff;
+            background-image: url("img_tree.png");
+            background-repeat: no-repeat;
+            background-position: right top;
+          }
+          </pre>
+        </li>
+        <li>shorthand:
+          <pre>
+          body {
+            background: #ffffff url("img_tree.png") no-repeat right top;
+          }
+          </pre>
+        </li>
+      </ul>
+    </li>
+  </ol>
+  <h4>Borders</h4>
+  <div>The CSS border properties allow you to specify the style, width, and color of an element's border.</div>
+  <div>many attributes:
+    <pre>
+      p.one {
+        border-top: 5px solid red;
+        border-bottom: 5px solid blue;
+        border-left: 5px solid yellow;
+        border-right: 5px dotted green;
+        width: 50px;
+        height: 50px;
+        background: pink;
+        color: purple;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 50px 25px 100px 30px;
+        padding: 5px 30px 15px 20px;
+        border-radius: 10px 20px 30px 40px;
+        text-align: justify;
+       }
+    </pre>
+  </div>
+  <h4>Margins</h4>
+  <div>Margins are used to create space around elements, outside of any defined borders.
+  <br/>
+  All the margin properties can have the following values:
+  <ul>
+    <li>auto - the browser calculates the margin</li>
+    <li>length - specifies a margin in px, pt, cm, etc.</li>
+    <li>% - specifies a margin in % of the width of the containing element</li>
+    <li>inherit - specifies that the margin should be inherited from the parent element</li>
+  </ul>
+  <ul>Shorthand
+    <li>If I write 4 values, the order is: top right bottom and left</li>
+    <li>If I write 3 values, the order is: top righ and left bottom</li>
+    <li>If I write 2 values, the order is: top and bottom right and left</li>
+    <li>IF I write 1 value, it aplies to all margins</li>
+  </ul>
+  <strong>Margin Collapse</strong>
+  Top and bottom margins of elements are sometimes collapsed into a single margin that 
+  is equal to the largest of the two margins. This does not happen on left and right margins,
+  Only top and bottom margins.
+  </div>
+  <h4>Padding</h4>
+  <div>
+    Padding is used to create space around an element's content, inside of any defined borders.
+    <br />
+    <strong>width:</strong>The CSS width property specifies the width of the element's content area. 
+    The content area is the portion inside the padding, border, and margin of an element (the box model).
+    <image src="box.png" alt="box model"></image>
+    <br />
+    <strong>box-sizing</strong>
+    <br/>
+    To keep the width at 300px, no matter the amount of padding, you can use the box-sizing property. 
+    This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease.
+  </div>
+  </div>
 </body>
 
 </html>
