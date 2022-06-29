@@ -138,39 +138,95 @@
   </div>
   <h4>Margins</h4>
   <div>Margins are used to create space around elements, outside of any defined borders.
-  <br/>
-  All the margin properties can have the following values:
-  <ul>
-    <li>auto - the browser calculates the margin</li>
-    <li>length - specifies a margin in px, pt, cm, etc.</li>
-    <li>% - specifies a margin in % of the width of the containing element</li>
-    <li>inherit - specifies that the margin should be inherited from the parent element</li>
-  </ul>
-  <ul>Shorthand
-    <li>If I write 4 values, the order is: top right bottom and left</li>
-    <li>If I write 3 values, the order is: top righ and left bottom</li>
-    <li>If I write 2 values, the order is: top and bottom right and left</li>
-    <li>IF I write 1 value, it aplies to all margins</li>
-  </ul>
-  <strong>Margin Collapse</strong>
-  Top and bottom margins of elements are sometimes collapsed into a single margin that 
-  is equal to the largest of the two margins. This does not happen on left and right margins,
-  Only top and bottom margins.
+    <br />
+    All the margin properties can have the following values:
+    <ul>
+      <li>auto - the browser calculates the margin</li>
+      <li>length - specifies a margin in px, pt, cm, etc.</li>
+      <li>% - specifies a margin in % of the width of the containing element</li>
+      <li>inherit - specifies that the margin should be inherited from the parent element</li>
+    </ul>
+    <ul>Shorthand
+      <li>If I write 4 values, the order is: top right bottom and left</li>
+      <li>If I write 3 values, the order is: top righ and left bottom</li>
+      <li>If I write 2 values, the order is: top and bottom right and left</li>
+      <li>IF I write 1 value, it aplies to all margins</li>
+    </ul>
+    <strong>Margin Collapse</strong>
+    Top and bottom margins of elements are sometimes collapsed into a single margin that
+    is equal to the largest of the two margins. This does not happen on left and right margins,
+    Only top and bottom margins.
   </div>
   <h4>Padding</h4>
   <div>
     Padding is used to create space around an element's content, inside of any defined borders.
     <br />
-    <strong>width:</strong>The CSS width property specifies the width of the element's content area. 
+    <strong>width:</strong>The CSS width property specifies the width of the element's content area.
     The content area is the portion inside the padding, border, and margin of an element (the box model).
     <image src="box.png" alt="box model"></image>
     <br />
     <strong>box-sizing</strong>
-    <br/>
-    To keep the width at 300px, no matter the amount of padding, you can use the box-sizing property. 
-    This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease.
+    <br />
+    To keep the width at 300px, no matter the amount of padding, you can use the box-sizing property.
+    This causes the element to maintain its actual width; if you increase the padding, the available content space will
+    decrease.
   </div>
   </div>
+  <table>
+    <tbody>
+      <tr>
+        <th style="width:20%">Generic Font Family</th>
+        <th style="width:30%">Examples of Font Names</th>
+      </tr>
+      <tr>
+        <td>Serif</td>
+        <td><span style="font-size:150%;font-family:'Times New Roman',serif">Times New Roman</span><br>
+          <span style="font-size:150%;font-family:Georgia,serif">Georgia</span><br>
+          <span style="font-size:150%;font-family:Garamond,serif">Garamond</span><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Sans-serif</td>
+        <td><span style="font-size:150%;font-family:Arial,sans-serif">Arial</span><br>
+          <span style="font-size:150%;font-family:Verdana,sans-serif">Verdana</span><br>
+          <span style="font-size:150%;font-family:Helvetica,sans-serif">Helvetica</span><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Monospace</td>
+        <td><span style="font-size:150%;font-family:'Courier New',monospace">Courier New</span><br>
+          <span style="font-size:150%;font-family:'Lucida Console',monospace">Lucida Console</span><br>
+          <span style="font-size:150%;font-family:Monaco,monospace">Monaco</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Cursive</td>
+        <td><span style="font-size:150%;font-family:'Brush Script MT',cursive">Brush Script MT</span><br>
+          <span style="font-size:150%;font-family:'Lucida Handwriting',cursive">Lucida Handwriting</span><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Fantasy</td>
+        <td><span style="font-size:150%;font-family:Copperplate,fantasy">Copperplate</span><br>
+          <span style="font-size:150%;font-family:Papyrus,fantasy">Papyrus</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  Best Web Safe Fonts for HTML and CSS
+  The following list are the best web safe fonts for HTML and CSS:
+  <ul>
+    <li>Arial (sans-serif)</li>
+    <li>Verdana (sans-serif)</li>
+    <li>Helvetica (sans-serif)</li>
+    <li>Tahoma (sans-serif)</li>
+    <li>Trebuchet MS (sans-serif)</li>
+    <li>Times New Roman (serif)</li>
+    <li>Georgia (serif)</li>
+    <li>Garamond (serif)</li>
+    <li>Courier New (monospace)</li>
+    <li>Brush Script MT (cursive)</li>
+  </ul>
 </body>
 
 </html>
